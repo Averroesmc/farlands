@@ -9,7 +9,6 @@
     "MixinNoiseSamplingConfig",
     "MixinOctavePerlinNoiseSampler",
     "MixinPlayerEntity",
-    "MixinServerPlayNetworkHandler",
     "MixinWorld",
     "MixinWorldBorder",
     "MixinWorldBorderProperties"

@@ -1,5 +1,6 @@
 package supercoder79.farlands.mixin;
 
+import net.minecraft.structure.StructureStart;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
@@ -34,3 +35,4 @@ public class MixinAquiferSampler {
 		return MathHelper.clamp(dx, 0, this.waterLevels.length - 1);
 	}
 }
+
