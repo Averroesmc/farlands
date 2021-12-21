@@ -4,7 +4,6 @@
   "package": "supercoder79.farlands.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinAquiferSampler",
     "MixinEntity",
     "MixinMinecraftServer",
     "MixinNoiseSamplingConfig",
