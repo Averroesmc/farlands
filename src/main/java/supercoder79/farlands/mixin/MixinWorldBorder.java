@@ -7,6 +7,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import net.minecraft.world.border.WorldBorder;
+import net.minecraft.world.border.WorldBorder.StaticArea;
 
 @Mixin(WorldBorder.class)
 public class MixinWorldBorder {

@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.world.gen.AquiferSampler;
+import net.minecraft.world.gen.chunk.AquiferSampler;
 
 @Mixin(AquiferSampler.class)
 public class MixinAquiferSampler {
